@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Fylo dark theme landing page solution](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd/hub/fylo-dark-theme-landingpage-tailwind-css-pBDftzGGX1)
+- Live Site URL: [Fylo dark theme landing page solution](https://arian4.github.io/fylo-dark-theme-landing-page/)
 
 ## My process
 
