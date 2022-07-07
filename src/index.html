@@ -8,7 +8,7 @@
     <title>Document</title>
   </head>
   <body class="bg-main_background font-body">
-    <header class="flex items-center justify-between p-4">
+    <header class="bg-intro_background flex items-center justify-between p-4">
       <div>
         <img class="w-20" src="./images/logo.svg" alt="logo.svg" />
       </div>
@@ -30,5 +30,41 @@
         >
       </nav>
     </header>
+    <main>
+      <section id="intro" class="bg-intro_background relative min-h-[380px]">
+        <img
+          class="max-w-[80%] absolute left-1/2 right-1/2 -translate-x-[50%] -translate-y-[50%] top-40 sm:top-48 md:top-56 lg:top-64 z-20"
+          src="./images/illustration-intro.png "
+          alt="illustration-intro"
+        />
+        <img
+          class="absolute bottom-0 inset-x-0 z-10 w-full lg:hidden"
+          src="./images/bg-curvy-mobile.svg"
+          alt="bg-curvy-mobile"
+        />
+        <img
+          class="h-[200px] absolute bottom-0 inset-x-0 z-10 w-full hidden lg:block"
+          src="./images/bg-curvy-desktop.svg"
+          alt="bg-curvy-desktop"
+        />
+        <div
+          class="absolute left-5 xl:left-44 -bottom-40 sm:-bottom-56 md:-bottom-64 lg:-bottom-[18rem] z-20 flex flex-col items-center"
+        >
+          <h3 class="text-white text-xl text-center px-10 font-bold">
+            All your files in one secure location, accessible anywhere.
+          </h3>
+          <p class="text-[#ccc] text-sm lg:text-base text-center px-10 my-5">
+            Fylo stores all your most important files in one secure location.
+            Access them wherever you need, share and collaborate with friends
+            family, and co-workers.
+          </p>
+          <button
+            class="bg-gradient-to-r from-cyan to-blue px-20 py-2 text-white font-bold rounded-3xl"
+          >
+            Get Started
+          </button>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
